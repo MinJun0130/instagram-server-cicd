@@ -1,7 +1,7 @@
 services:
   my-server:
     # GHCR(GitHub Container Registry)에서 받아오는 이미지
-    image: ghcr.io/nissi153/instagram-server:latest
+    image: ghcr.io/MinJun0130/instagram-server:latest
     ports:
       - 8080:8080
     environment:
